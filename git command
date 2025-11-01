@@ -1,0 +1,30 @@
+Open your project in VS Code and open the Integrated Terminal.
+Navigate to View > Terminal or use the shortcut Ctrl+ (backtick).
+Initialize a Git repository (if you haven't already).
+Code
+    git init
+Add your files to the staging area.
+To add all changes:
+Code
+
+        git add .
+To add specific files.
+Code
+
+        git add <file_name>
+Commit your changes.
+Replace "Initial commit" with a descriptive message.
+Code
+
+    git commit -m "Initial commit"
+Add the remote repository.
+Replace <YOUR_REPOSITORY_URL> with the URL of your GitHub repository.
+Code
+
+    git remote add origin <YOUR_REPOSITORY_URL>
+Push your code to GitHub.
+Replace main with the name of your branch if it's different.
+Code
+
+    git push -u origin main
+You may be prompted to authenticate with your GitHub credentials (username and Personal Access Token or through a browser sign-in).
